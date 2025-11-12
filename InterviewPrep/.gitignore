@@ -1,0 +1,8 @@
+# Ignore compiled code
+/target/
+*.class
+
+# Ignore configuration file containing secrets
+application-secrets.properties 
+# Or if you use a common name like .env for secrets
+.env
